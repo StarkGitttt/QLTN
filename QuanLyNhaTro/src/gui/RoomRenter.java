@@ -58,22 +58,22 @@ public class RoomRenter extends javax.swing.JFrame {
         jTable1.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"Căn hộ", "5000000", "100m2", null, null, null, null},
-                {"Nhà riêng", "7000000", "200m2", null, null, null, null},
-                {"Nhà riêng", "7000000", "200m2", null, null, null, null},
-                {"Căn hộ", "5000000", "100m2", null, null, null, null},
-                {"Căn hộ", "5000000", "100m2", null, null, null, null},
-                {"Nhà trọ", "1500000", "100m2", null, null, null, null},
-                {"Nhà riêng", "7000000", "200m2", null, null, null, null},
-                {"Nhà trọ", "1500000", "100m2", null, null, null, null},
-                {"Nhà riêng", "7000000", "200m2", null, null, null, null}
+                {"Căn hộ", "5000000", "100m2", null, null, null, null, null},
+                {"Nhà riêng", "7000000", "200m2", null, null, null, null, null},
+                {"Nhà riêng", "7000000", "200m2", null, null, null, null, null},
+                {"Căn hộ", "5000000", "100m2", null, null, null, null, null},
+                {"Căn hộ", "5000000", "100m2", null, null, null, null, null},
+                {"Nhà trọ", "1500000", "100m2", null, null, null, null, null},
+                {"Nhà riêng", "7000000", "200m2", null, null, null, null, null},
+                {"Nhà trọ", "1500000", "100m2", null, null, null, null, null},
+                {"Nhà riêng", "7000000", "200m2", null, null, null, null, null}
             },
             new String [] {
-                "Loại nhà", "Giá tiền", "Diện tích", "Địa chỉ", "SĐT liên hệ", "Mô tả", "Trạng thái"
+                "Loại nhà", "Giá tiền", "Diện tích", "Địa chỉ", "SĐT liên hệ", "Ngày đăng tin", "Mô tả", "Trạng thái"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
 
             public Class getColumnClass(int columnIndex) {

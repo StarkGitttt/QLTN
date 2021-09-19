@@ -37,6 +37,7 @@ public class HistoryRoomOwner extends javax.swing.JFrame {
         jPanel3 = new javax.swing.JPanel();
         btnChangeP = new javax.swing.JButton();
         btnCancelP = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
         btnCancelP1 = new javax.swing.JButton();
         jSeparator1 = new javax.swing.JSeparator();
 
@@ -77,22 +78,22 @@ public class HistoryRoomOwner extends javax.swing.JFrame {
         jTable1.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"Căn hộ", "5000000", "100m2", null, null},
-                {"Nhà riêng", "7000000", "200m2", null, null},
-                {"Nhà riêng", "7000000", "200m2", null, null},
-                {"Căn hộ", "5000000", "100m2", null, null},
-                {"Căn hộ", "5000000", "100m2", null, null},
-                {"Nhà trọ", "1500000", "100m2", null, null},
-                {"Nhà riêng", "7000000", "200m2", null, null},
-                {"Nhà trọ", "1500000", "100m2", null, null},
-                {"Nhà riêng", "7000000", "200m2", null, null}
+                {"Căn hộ", "5000000", "100m2", null, null, null},
+                {"Nhà riêng", "7000000", "200m2", null, null, null},
+                {"Nhà riêng", "7000000", "200m2", null, null, null},
+                {"Căn hộ", "5000000", "100m2", null, null, null},
+                {"Căn hộ", "5000000", "100m2", null, null, null},
+                {"Nhà trọ", "1500000", "100m2", null, null, null},
+                {"Nhà riêng", "7000000", "200m2", null, null, null},
+                {"Nhà trọ", "1500000", "100m2", null, null, null},
+                {"Nhà riêng", "7000000", "200m2", null, null, null}
             },
             new String [] {
-                "Loại nhà", "Giá tiền", "Diện tích", "Địa chỉ", "Mô tả"
+                "Loại nhà", "Giá tiền", "Diện tích", "Địa chỉ", "Mô tả", "Tình trạng"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -144,6 +145,14 @@ public class HistoryRoomOwner extends javax.swing.JFrame {
             }
         });
         jPanel3.add(btnCancelP);
+
+        jButton1.setBackground(new java.awt.Color(61, 192, 96));
+        jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("Thông tin người liên hệ");
+        jButton1.setBorder(null);
+        jButton1.setPreferredSize(new java.awt.Dimension(180, 40));
+        jPanel3.add(jButton1);
 
         btnCancelP1.setBackground(new java.awt.Color(61, 192, 96));
         btnCancelP1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -252,6 +261,7 @@ public class HistoryRoomOwner extends javax.swing.JFrame {
     private javax.swing.JButton btnCancelP1;
     private javax.swing.JButton btnChangeP;
     private javax.swing.JPanel head;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
