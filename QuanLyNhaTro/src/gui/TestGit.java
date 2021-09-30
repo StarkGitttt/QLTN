@@ -14,6 +14,7 @@ public class TestGit {
         System.out.println("Quyen yeu Lam");
 
         System.out.println("Long nek1");
+        System.out.println("Long nek1");
 
         System.out.println("Add text");
 
