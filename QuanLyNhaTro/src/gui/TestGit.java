@@ -12,6 +12,7 @@ package gui;
 public class TestGit {
     public static void main(String[] args) {
         System.out.println("Quyen yeu Lam");
+        System.out.println("Add text");
     }
             
 }
