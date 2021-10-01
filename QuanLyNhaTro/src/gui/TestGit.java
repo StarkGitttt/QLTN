@@ -11,11 +11,13 @@ package gui;
  */
 public class TestGit {
     public static void main(String[] args) {
-        System.out.println("Quyen yeu Lam");
+        
 
         System.out.println("Long nek123456");
 
         System.out.println("Add text");
+        
+        System.out.println("You wanna dance?!");
 
     }
             
